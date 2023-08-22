@@ -9,7 +9,7 @@ import ipd.factorymethod.IDBAdapter;
 import ipd.factorymethod.DBFactory;
 import ipd.factorymethod.entity.Product;
 
-
+// clase base para construir productos 
 public class ProductDAO {
     private IDBAdapter dbAdapter;
 
