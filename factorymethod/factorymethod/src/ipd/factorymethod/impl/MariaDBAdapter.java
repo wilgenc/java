@@ -19,7 +19,7 @@ public class MariaDBAdapter implements IDBAdapter {
     static {
         // Bloqueo para resgistrar el Driver de maria DB
         try {
-            new com.mysql.cj.jdbc.Driver();
+           //TODO: new com.mysql.cj.jdbc.Driver();
         }catch (Exception e){
             e.printStackTrace();
         }

@@ -19,7 +19,7 @@ public class MySQLDBAdapter implements IDBAdapter {
     static {
         // Bloqueo para resgistrar el Driver de Oracle
         try {
-            new com.mysql.jdbc.Driver();
+            //TODO: new com.mysql.jdbc.Driver();
         }catch (Exception e){
             e.printStackTrace();
         }
